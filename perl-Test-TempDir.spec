@@ -6,6 +6,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A factory for creating L<Test::TempDir::Handle>
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -47,3 +48,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
